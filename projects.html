@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quinlan O'Rourke's Engineering and Technology Projects">
+    <title>Projects - Quinlan O'Rourke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">Quinlan O'Rourke</a>
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p class="page-subtitle">Showcasing my engineering and technology work</p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="project-carousel">
+                    <button class="carousel-btn carousel-btn-prev" aria-label="Previous project">
+                        &#8249;
+                    </button>
+                    <div class="project-slides">
+                        <div class="project-slide active">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="https://via.placeholder.com/600x400/4a90e2/ffffff?text=Smart+Home+Automation+System" alt="Smart Home Automation System project interface">
+                                </div>
+                                <div class="project-content">
+                                    <h2>Smart Home Automation System</h2>
+                                    <p class="project-tech">Technologies: Arduino, IoT, C++, Python, MQTT</p>
+                                    <p class="project-description">
+                                        Developed a comprehensive smart home automation system that integrates multiple sensors 
+                                        and actuators. The system features real-time monitoring, remote control via mobile app, 
+                                        and energy-efficient scheduling. Implemented secure communication protocols and 
+                                        user-friendly interfaces for device management.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Sensor integration (temperature, motion, light)</li>
+                                        <li>Mobile app for remote control</li>
+                                        <li>Automated scheduling and energy management</li>
+                                        <li>Secure MQTT communication</li>
+                                    </ul>
+                                    <div class="project-links">
+                                        <a href="#" class="btn btn-primary" aria-label="View Smart Home Automation project on GitHub">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-slide">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="https://via.placeholder.com/600x400/50c878/ffffff?text=Digital+Signal+Processor" alt="Digital Signal Processor project visualization">
+                                </div>
+                                <div class="project-content">
+                                    <h2>Digital Signal Processor</h2>
+                                    <p class="project-tech">Technologies: MATLAB, DSP, FPGA, Verilog</p>
+                                    <p class="project-description">
+                                        Designed and implemented a digital signal processor capable of filtering, 
+                                        transforming, and analyzing audio signals in real-time. The project includes 
+                                        both software simulation in MATLAB and hardware implementation on an FPGA. 
+                                        Features include various filter types, frequency analysis, and signal visualization.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Real-time signal processing</li>
+                                        <li>Multiple filter implementations (FIR, IIR)</li>
+                                        <li>Frequency domain analysis (FFT)</li>
+                                        <li>FPGA hardware acceleration</li>
+                                    </ul>
+                                    <div class="project-links">
+                                        <a href="#" class="btn btn-primary" aria-label="View Digital Signal Processor project on GitHub">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-slide">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="https://via.placeholder.com/600x400/ff6b6b/ffffff?text=Robotic+Control+System" alt="Robotic Control System project demonstration">
+                                </div>
+                                <div class="project-content">
+                                    <h2>Robotic Control System</h2>
+                                    <p class="project-tech">Technologies: Raspberry Pi, Python, ROS, Computer Vision</p>
+                                    <p class="project-description">
+                                        Built an autonomous robotic control system with obstacle avoidance and path planning. 
+                                        The robot uses computer vision for object detection, integrates multiple sensors for 
+                                        navigation, and implements PID control for precise movement. The system includes 
+                                        remote monitoring and control capabilities.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Autonomous navigation and path planning</li>
+                                        <li>Computer vision for object detection</li>
+                                        <li>Obstacle avoidance algorithms</li>
+                                        <li>Real-time sensor fusion</li>
+                                        <li>Remote control interface</li>
+                                    </ul>
+                                    <div class="project-links">
+                                        <a href="#" class="btn btn-primary" aria-label="View Robotic Control System project on GitHub">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-btn-next" aria-label="Next project">
+                        &#8250;
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <button class="indicator active" aria-label="Go to project 1"></button>
+                    <button class="indicator" aria-label="Go to project 2"></button>
+                    <button class="indicator" aria-label="Go to project 3"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Quinlan O'Rourke. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
